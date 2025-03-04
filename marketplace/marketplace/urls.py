@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("", include("marketplaceapp.urls")),
     path("", include("register.urls")),
+    path("", include("django.contrib.auth.urls"))
 ]

@@ -126,3 +126,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_URL="/product_images/"
 MEDIA_ROOT=BASE_DIR
+
+#doua variabile care ne vor redirectiona pe ruta de homepage
+LOGIN_REDIRECT_URL = "/"
+LOGOUT_REDIRECT_URL = "/"
